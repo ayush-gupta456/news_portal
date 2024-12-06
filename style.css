@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color:grey;
+  color:black;
+  display: flex;
+  justify-content:space-between;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0;
+}
+.input_box{ 
+  display: flex;
+  scale:50px;
+
+}
+.search_button{
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+main {
+  padding: 1rem;
+}
+
+.news-article {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.news-article img {
+  width: 100px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.news-article a {
+  text-decoration: none;
+  color:black;
+}
+
+.news-article a:hover {
+  color: #333;
+}
